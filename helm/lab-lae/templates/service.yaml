@@ -10,8 +10,7 @@ metadata:
             "bandwidth_chargemode":"traffic",
             "bandwidth_size": 5,
             "bandwidth_sharetype": "PER",
-            "eip_type": "5_bgp",
-            "name": "james"
+            "eip_type": "5_bgp"
         }'
     kubernetes.io/elb.lb-algorithm: ROUND_ROBIN
     kubernetes.io/elb.health-check-flag: "off"

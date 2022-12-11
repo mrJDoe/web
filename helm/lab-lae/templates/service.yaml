@@ -31,5 +31,6 @@ spec:
       targetPort: http
       protocol: TCP
       name: https
+  externalTrafficPolicy: Cluster
   selector:
     {{- include "lab-lae.selectorLabels" . | nindent 4 }}

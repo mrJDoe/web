@@ -8,7 +8,7 @@ metadata:
             "type": "public",
             "bandwidth_name": "lab-lae-cce-bandwidth-8c00",
             "bandwidth_chargemode":"traffic",
-            "bandwidth_size": 5,
+            "bandwidth_size": 10,
             "bandwidth_sharetype": "PER",
             "eip_type": "5_bgp"
         }'

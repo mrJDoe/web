@@ -3,9 +3,9 @@ kind: Service
 metadata:
   annotations:
     #kubernetes.io/elb.class: union
-    #kubernetes.io/elb.subnet-id: 80612fb3-9170-4f29-8aca-c5eb22c60c59
-    #kubernetes.io/elb.enterpriseID: aaeb7a63-32c7-4f3e-93c5-7aaf34c685c5
     kubernetes.io/elb.class: union
+    kubernetes.io/elb.subnet-id: 80612fb3-9170-4f29-8aca-c5eb22c60c59
+    kubernetes.io/elb.enterpriseID: aaeb7a63-32c7-4f3e-93c5-7aaf34c685c5
     kubernetes.io/elb.id: 06846a0d-e1d6-44c2-949e-b31e86170490
     kubernetes.io/elb.lb-algorithm: ROUND_ROBIN
     kubernetes.io/elb.health-check-flag: 'off'

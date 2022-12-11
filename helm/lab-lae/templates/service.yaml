@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/elb.subnet-id: 80612fb3-9170-4f29-8aca-c5eb22c60c59
     kubernetes.io/elb.enterpriseID: aaeb7a63-32c7-4f3e-93c5-7aaf34c685c5
     kubernetes.io/elb.autocreate: >-
-      {"type":"public","bandwidth_name":"cce-bandwidth-1664797272505","bandwidth_chargemode":"traffic","bandwidth_size":5,"bandwidth_sharetype":"PER","eip_type":"5_bgp"}
+      {"type":"public","bandwidth_name":"lab-lae-cce-bandwidth-8c00","bandwidth_chargemode":"traffic","bandwidth_size":5,"bandwidth_sharetype":"PER","eip_type":"5_bgp"}
     kubernetes.io/elb.lb-algorithm: ROUND_ROBIN
     kubernetes.io/elb.health-check-flag: "off"
   name: {{ include "lab-lae.fullname" . }}
